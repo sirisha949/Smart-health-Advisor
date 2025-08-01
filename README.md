@@ -1,16 +1,68 @@
-# Personalized-Medical-Recommendation-System-with-Machine-Learning
-Welcome to our cutting-edge Personalized Medical Recommendation System, a powerful platform designed to assist users in understanding and managing their health. Leveraging the capabilities of machine learning, our system analyzes user-input symptoms to predict potential diseases accurately. Here's what sets our system apart:
+🏡 House-Hunt (Rental House Platform)
 
-User-Friendly Interface: Our intuitive interface allows users to input their symptoms effortlessly, creating a seamless user experience.
+📌 House-Hunt Overview
+House-Hunt is a user-centric rental platform that simplifies the process of listing and finding houses for rent. The application empowers users to browse rental listings, connect with property owners, and manage property details in a seamless and efficient manner.
 
-Advanced Machine Learning Models: We've integrated state-of-the-art machine learning models that accurately predict diseases based on input symptoms, ensuring reliable and precise results.
+📝 Abstract
+The platform streamlines rental management by allowing property owners to list homes while enabling users to search, filter, and inquire about houses. House-Hunt enhances the rental experience with a modern interface, efficient property handling, and direct communication.
 
-Tailored Recommendations: Receive personalized recommendations for the top 5 medicines, prescription details, and even workout routines based on the predicted disease.
+🚀 Features
 
-Flask App Integration: The entire system is powered by a Flask web application, making it easily accessible to users. Experience the convenience of accessing healthcare recommendations from anywhere.
+User Authentication (Login, Signup)
+  Property Listings (Add, Edit, Delete, View)
+  Property Image Upload & Display
+  Search & Filter Functionality
+  Favorites/Shortlist Properties
+  Owner & Renter Communication
+  
+🛠️ Technologies Used
 
-Privacy and Security: We prioritize user privacy and data security. Your health information is handled with the utmost confidentiality, adhering to the highest industry standards.
+Development Platform: Android Studio
+  Backend: Firebase (Authentication, Firestore, Storage)
+  Programming Language: Java
+  UI: XML Layouts
 
-Continuous Improvement: Our system is designed for continuous improvement. As we gather more data, the machine learning models evolve, providing increasingly accurate and relevant recommendations.
+📝 Installation Steps
 
-Take charge of your health with our Personalized Medical Recommendation System. Your well-being is our priority, and we're dedicated to providing you with the tools and insights you need for a healthier, happier life.
+Clone the repository:
+
+bash
+git clone https://github.com/your-username/House-Hunt.git
+
+
+Open in Android Studio:
+
+Open the project folder in Android Studio
+Sync Gradle and install dependencies
+
+Set up Firebase:
+Create a Firebase Project in Firebase Console
+Add google-services.json to the app/ directory
+Enable Firestore, Authentication, and Firebase Storage
+
+📁 Folder Structure
+
+House-Hunt-main/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── househunt/
+│   │   │   │               ├── activities/
+│   │   │   │               ├── adapters/
+│   │   │   │               ├── models/
+│   │   │   │               └── utils/
+│   │   │   ├── res/
+│   │   │   │   ├── layout/       → XML UI files
+│   │   │   │   ├── drawable/     → App assets/icons
+│   │   │   │   ├── values/       → Colors, strings, styles
+│   │   │   └── AndroidManifest.xml
+├── build.gradle
+├── README.md
+└── 
+
+🔬 Conclusion
+House-Hunt redefines the rental experience by providing a digital platform for both tenants and property owners. With integrated user management, robust property listing features, and seamless UI, it offers a powerful tool for navigating the housing market.
+
